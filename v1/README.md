@@ -47,3 +47,8 @@ The Lambda function uses [ImageMagick][ImageMagick] for image resizing which req
 4. (Optional) Restrict resize dimensions.
 
     - To maintain performance and good quality , you can restrict the image while uploading into an S3 bucket.
+
+
+# Result
+
+   ![S3-Thumbnail-Creation](https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/master/v1/S3-Thumbnail-Creation.png)
