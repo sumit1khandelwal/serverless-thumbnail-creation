@@ -1,6 +1,6 @@
 # Serverless-Thumbnail-Creation
 
-See https://github.com/awslabs/serverless-image-handler instead.
+See https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/master/v1 instead.
 
 ## Description
 
