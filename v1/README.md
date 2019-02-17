@@ -1,6 +1,6 @@
 # Serverless-Thumbnail-Creation
 
-See https://github.com/awslabs/serverless-image-handler instead.
+See https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/master/v1 instead.
 
 ## Description
 
@@ -20,17 +20,17 @@ Lambda function can read the image object from the source bucket and create a th
 
 1. Create the Lambda function
 
-The Lambda function uses [ImageMagick][ImageMagick] for image resizing which requires
+   The Lambda function uses [ImageMagick][ImageMagick] for image resizing which requires
    native extensions. In order to run on Lambda, it must be run on on Amazon
    Lambda node js blue print. You can also accomplish this in one of two ways:
 
-   - Upload the contents of the `lambda` subdirectory to an [Amazon EC2 instance
-     running Amazon Linux][amazon-linux] and run `npm install`, or
+      - Upload the contents of the `lambda` subdirectory to an [Amazon EC2 instance
+        running Amazon Linux][amazon-linux] and run `npm install`, or
 
-   - Use the Amazon Linux Docker container image to build the package using your
-     local system. This repo includes Makefile that will download Amazon Linux,
-     install Node.js and developer tools, and build the extensions using Docker.
-     Run `make all`.
+      - Use the Amazon Linux Docker container image to build the package using your
+        local system. This repo includes Makefile that will download Amazon Linux,
+        install Node.js and developer tools, and build the extensions using Docker.
+        Run `make all`.
 
 2. Upload the code on lambda function
 
