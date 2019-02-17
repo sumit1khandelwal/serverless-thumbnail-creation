@@ -51,4 +51,4 @@ Lambda function can read the image object from the source bucket and create a th
 
 # Result
 
-   ![S3-Thumbnail-Creation](https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/master/v1/S3-Thumbnail-Creation.png)
+   ![S3-Thumbnail-Creation](https://github.com/sumit1khandelwal/serverless-thumbnail-creation/blob/develop/v1/S3-Thumbnail-Creation.png)
