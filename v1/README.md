@@ -51,4 +51,4 @@ The Lambda function uses [ImageMagick][ImageMagick] for image resizing which req
 
 # Result
 
-   ![S3-Thumbnail-Creation](https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/master/v1/S3-Thumbnail-Creation.png)
+   ![S3-Thumbnail-Creation](https://github.com/sumit1khandelwal/serverless-thumbnail-creation/tree/develop/v1/S3-Thumbnail-Creation.png)
